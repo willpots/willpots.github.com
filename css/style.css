@@ -4,11 +4,31 @@ html, body {
   margin:0;
   /*font-family: "Helvetica Neue", "Helvetica", sans-serif;*/
   font-family: 'Roboto', sans-serif;
-  background: url("/images/beldenfalls.png");
   background-size: 100% 100%;
   overflow: auto;
   height: 100%;
   /*font-family: "Georgia", serif;*/
+}
+@media (max-width: 450px) {
+  body { background: url("/images/beldenfalls-450.png"); }
+}
+@media (min-width: 450px) and (max-width: 800px) {
+  body { background: url("/images/beldenfalls-800.png"); }
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+  body { background: url("/images/beldenfalls-1200.png"); }
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  body { background: url("/images/beldenfalls-1600.png"); }
+}
+@media (min-width: 1600px) and (max-width: 2000px) {
+  body { background: url("/images/beldenfalls-2000.png"); }
+}
+@media (min-width: 2000px) {
+  body { background: url("/images/beldenfalls.png"); }
+}
+body {
+  background-size: 100% 100%;
 }
 a {
   color: hsl(216, 78%, 54%);
