@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   position: fixed;
   margin: 0;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.9);
 }
 .main-nav {
 
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   padding:20px;
   padding-bottom: 50px;
   width: 700px;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.9);
 }
 .main-header {
   font-weight: 200;
