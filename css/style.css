@@ -10,22 +10,22 @@ html, body {
   /*font-family: "Georgia", serif;*/
 }
 @media (max-width: 450px) {
-  body { background: url("/images/beldenfalls-450.png"); }
+  body { background: url("/images/beldenfalls-450.jpg"); }
 }
 @media (min-width: 450px) and (max-width: 800px) {
-  body { background: url("/images/beldenfalls-800.png"); }
+  body { background: url("/images/beldenfalls-800.jpg"); }
 }
 @media (min-width: 800px) and (max-width: 1200px) {
-  body { background: url("/images/beldenfalls-1200.png"); }
+  body { background: url("/images/beldenfalls-1200.jpg"); }
 }
 @media (min-width: 1200px) and (max-width: 1600px) {
-  body { background: url("/images/beldenfalls-1600.png"); }
+  body { background: url("/images/beldenfalls-1600.jpg"); }
 }
 @media (min-width: 1600px) and (max-width: 2000px) {
-  body { background: url("/images/beldenfalls-2000.png"); }
+  body { background: url("/images/beldenfalls-2000.jpg"); }
 }
 @media (min-width: 2000px) {
-  body { background: url("/images/beldenfalls.png"); }
+  body { background: url("/images/beldenfalls.jpg"); }
 }
 body {
   background-size: 100% 100%;
