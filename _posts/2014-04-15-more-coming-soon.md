@@ -9,7 +9,7 @@ Given my interest in mapping and software development, I like showing traditiona
 
 An alternative to the traditional events calendar, MiddMap shows Middlebury College events happening in the future. Using the official Middlebury events feed, MiddMap parses the "location" field and translations a placename to geographic coordinates. The site also allows for events to be filtered by start time.
 
-Currently, events are only ingested from the official college feed, but I intend to allow individual users to pull in their personal Facebook feeds as well as add their own events to the calendar.
+Currently, events are only ingested from the official college feed, but I intend to allow individual users to pull in their personal Facebook feeds as well as add their own events to the calendar. I'll also be adding an iPhone app at some point soon.
 
 Visit the site at [www.middmap.com](http://www.middmap.com). I'd love to hear any thoughts you may have -- dev {at} willpots {dotcom}.
 
