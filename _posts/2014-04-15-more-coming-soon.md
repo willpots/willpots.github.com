@@ -13,4 +13,4 @@ Currently, events are only ingested from the official college feed, but I intend
 
 Visit the site at [www.middmap.com](http://www.middmap.com). I'd love to hear any thoughts you may have -- dev {at} willpots {dotcom}.
 
-Code can be found https://github.com/willpots/middmap.
+Code can be found [here](https://github.com/willpots/middmap).
