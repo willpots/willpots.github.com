@@ -43,20 +43,58 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 .sidebar {
-  float: left;
-  position: fixed;
-  margin: 0;
   background: rgba(255,255,255,0.9);
 }
 .main-nav {
 
 }
+@media (max-width: 750px) {
+  .sidebar {
+    position: fixed;
+    width:100%;
+    clear:both;
+  }
+  .sidebar .main-header {
+    margin:0;
+    position:absolute;
+    width:250px;
+    font-size: 20px;
+    padding:10px;
+  }
+  .sidebar nav.main-nav {
+    float:right;
+    clear:both;
+  }
+  .sidebar nav.main-nav a {
+    display:inline-block;
+  }
+  #main {
+    margin:0 auto;
+    margin-left: auto;
+    margin-top: 80px;
+    padding:20px;
+    padding-bottom: 50px;
+    width: calc(100% - 30px);
+  }
+}
+@media (min-width: 750px) {
+  .sidebar {
+    float: left;
+    position: fixed;
+    margin: 0;
+    width:250px;
+    background: rgba(255,255,255,0.9);
+  }
+  #main {
+    margin-right:60px;
+    margin-left: auto;
+    margin-top: 70px;
+    padding:20px;
+    padding-bottom: 50px;
+    width: calc(100% - 370px);
+  }
+}
 #main {
-  margin:0 auto;
-  margin-top: 70px;
-  padding:20px;
-  padding-bottom: 50px;
-  width: 700px;
   background: rgba(255,255,255,0.9);
 }
 .main-header {
