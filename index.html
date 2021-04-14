@@ -3,8 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>willpots.github.io</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 <body>
-  <a href="http://willpotter.co">visit my personal blog</a>
+  <div id="container">
+    <div class="sidebar">
+      <div><a href="https://github.com/willpots">github</a></div>
+      <div><a href="https://twitter.com/willpots">twitter</a></div>
+    </div>
+    <div class="content">
+      <div id="text-content" class="text-content"></div>
+    </div>
+    <script>
+      const delay = async ms => await new Promise(resolve => setTimeout(resolve, ms)); 
+      document.body.onload = async function () {
+        let contents = 'Hello, my name is Will Potter. I’m a software engineer living in Truckee, California.';
+        const contentElement = document.getElementById('text-content');
+
+        while(contents.length !== 0) {
+          await delay(100);
+          [letter, ...contents] = contents;
+          contentElement.innerHTML += letter;
+          if (letter === '.') {
+            await delay(300);
+          }
+        }
+      };
+
+    </script>
+
+
+  </div>
 </body>
 </html>
